@@ -17,17 +17,10 @@ console.log(even2); // Output: false
 
  */
 
-function isEven(number) {
+function isEven(num) {
+
+  return num % 2 === 0;
   
-  return number % 2 === 0;
 }
-
-let number = 4;
-let result = isEven(number);
-console.log(result); // Output: true
-
-number = 7;
-result = isEven(number);
-console.log(result);
 
 module.exports = isEven;
