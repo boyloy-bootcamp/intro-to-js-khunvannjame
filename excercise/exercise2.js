@@ -15,7 +15,15 @@ console.log(area); // Output: 15
  */
 
 function calculateRectangleArea(length, width) {
-  // Your code here
+
+  let area = length * width;
+  return area;
 }
+
+let length = 5;
+let width = 3;
+let area = calculateRectangleArea(length, width);
+
+console.log(area);
 
 module.exports = calculateRectangleArea;

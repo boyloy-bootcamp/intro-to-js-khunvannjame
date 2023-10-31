@@ -16,7 +16,13 @@ console.log(fahrenheit); // Output: 77
  */
 
 function celsiusToFahrenheit(celsius) {
-  // Your code here
+  let fahrenheit = (celsius * 9/5) + 32;
+  return fahrenheit;
 }
 
+let celsius = 25;
+let fahrenheit = celsiusToFahrenheit(celsius);
+
+console.log(fahrenheit);
+ 
 module.exports = celsiusToFahrenheit;
